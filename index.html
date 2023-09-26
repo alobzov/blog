@@ -1,0 +1,39 @@
+---
+layout: default
+title: "Алексей Лобзов о менеджменте и системном анализе"
+description: Это мой блог, где я делюсь идеями и опытом, полученными в процессе моей профессиональной деятельности
+keywords:
+  - алексей лобзов
+  - системный анализ
+  - менеджмент
+  - alobzov
+---
+
+<div>
+    {% for post in site.posts %}
+        <article>
+            <time datetime="{{ post.date | date-to_xmlschema }}">
+                {% assign m = post.date | date: "%-m" %}
+                {{ post.date | date: "%-d" }}
+                {% case m %}
+                    {% when '1' %}января
+                    {% when '2' %}февраля
+                    {% when '3' %}марта
+                    {% when '4' %}апреля
+                    {% when '5' %}мая
+                    {% when '6' %}июня
+                    {% when '7' %}июля
+                    {% when '8' %}августа
+                    {% when '9' %}сентября
+                    {% when '10' %}октября
+                    {% when '11' %}ноября
+                    {% when '12' %}декабря
+                {% endcase %}
+                {{ post.date | date: "%Y" }}
+            </time>
+            <h1>{{ post.title }}</h1>
+            {{ post.description }}
+            <a href="{{ post.url | prepend: site.baseurl }}">Читать...</a>
+        </article>
+    {% endfor %}
+</div>
