@@ -1,29 +1,36 @@
 ---
 layout: default
 ---
-<p>
-    <span style="font-weight:bold">
-        {{ page.author }}
-    </span>
-    <time datetime="{{ page.date | dare_to_xmlschema }}">
+
+<article>
+  <h1>{{ page.title }}</h1>
+  <div class="subline">
+    <span>
+      <time datetime="{{ page.date | dare_to_xmlschema }}">
         {% assign m = page.date | date: "%-m" %}
         {{ page.date | date: "%-d" }}
         {% case m %}
-            {% when '1' %}января
-            {% when '2' %}февраля
-            {% when '3' %}марта
-            {% when '4' %}апреля
-            {% when '5' %}мая
-            {% when '6' %}июня
-            {% when '7' %}июля
-            {% when '8' %}августа
-            {% when '9' %}сентября
-            {% when '10' %}октября
-            {% when '11' %}ноября
-            {% when '12' %}декабря
+          {% when '1' %}января
+          {% when '2' %}февраля
+          {% when '3' %}марта
+          {% when '4' %}апреля
+          {% when '5' %}мая
+          {% when '6' %}июня
+          {% when '7' %}июля
+          {% when '8' %}августа
+          {% when '9' %}сентября
+          {% when '10' %}октября
+          {% when '11' %}ноября
+          {% when '12' %}декабря
         {% endcase %}
-        {{ post.date | date: "%Y" }}
-    </time>
-</p>
-
-{{ content }}
+        {{ page.date | date: "%Y" }}
+      </time>
+    </span>
+    {% if page.place %}
+    <span>
+      {{ page.place }}
+    </span>
+    {% endif %}
+  </div>
+  {{ content }}
+</article>

@@ -3,19 +3,35 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/index.css">
   </head>
   <body>
-    <nav>
-      <a href="/">Главная</a>
-      <a href="/blog/">Блог</a>
-    </nav>
-    <h1>{{ page.title }}</h1>
-    <section>
-      {{ content }}
-    </section>
-    <footer>
-      &copy; alobzov
-    </footer>
+    <div class="wrapper">
+      <header>
+        <nav>
+          <ul class="menu">
+            <li>
+              <a href="/" title="Главная страница">Главная</a>
+            </li>
+            <!--
+            <li>
+              <a href="/cv/" title="Моё резюме">Резюме</a>
+            </li>
+            -->
+            <li>
+              <a href="/blog/" title="Постов: {{ site.posts.size }} шт.">Блог</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        {{ content }}
+      </main>
+      <footer>
+        <div class="footer-meta">
+          &copy; alobzov
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
