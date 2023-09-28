@@ -91,6 +91,10 @@ pre code span {
   font-size: .75em;
 }
 
+img {
+  width: 100%;
+}
+
 .footer-meta {
   text-align: center;
 }
