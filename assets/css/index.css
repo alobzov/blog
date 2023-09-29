@@ -95,6 +95,13 @@ img {
   width: 100%;
 }
 
+hr {
+  border: 1px solid black;
+  width: 10%;
+  margin-left: auto;
+  margin-right:auto;
+}
+
 .footer-meta {
   text-align: center;
 }

@@ -34,6 +34,8 @@ keywords:
       </time>
     </div>
     {{ post.description }}
-    <a href="{{ post.url | prepend: site.baseurl }}">Читать...</a>
+    <div>
+      <a href="{{ post.url | prepend: site.baseurl }}">Читать...</a>
+    </div>
   </article>
 {% endfor %}
