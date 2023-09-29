@@ -1,0 +1,16 @@
+name: Check .md links
+
+on:
+  push:
+   branches:
+   - main
+
+jobs:
+  markdown-link-check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: gaurav-nelson/github-action-markdown-link-check@v1
+      with:
+        folder-path: '_posts'
+        file-path: './README.md'

@@ -63,8 +63,8 @@ article p,
 article ul,
 article ol,
 article div {
-  margin-top: .5em;
-  margin-bottom: .5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 article ul,
@@ -79,6 +79,13 @@ article ol {
 
 div.subline span {
   margin-right: .5em;;
+}
+
+figcaption {
+  color: grey;
+  font-size: .75em;
+  text-align: center;
+  margin-top: 0px;
 }
 
 pre {
