@@ -1,4 +1,4 @@
-name: Check .md links
+name: markdown-link-check
 
 on:
   push:
