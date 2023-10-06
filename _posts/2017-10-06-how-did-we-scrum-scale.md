@@ -93,6 +93,6 @@ source: https://habr.com/ru/companies/alfa/articles/339510/
 
 ---
 
-[Оригинальный текст](https://habr.com/ru/companies/alfa/articles/339510/)
+[Оригинальный текст]({{ page.source }})
 |
 [Доклад по материалам статьи](https://moscowpython.ru/meetup/50/scrum-scale/)

@@ -185,4 +185,4 @@ asciidoctor -r asciidoctor-plantuml index.adoc getReport/getReport.adoc
 
 ---
 
-[Оригинальный текст](https://habr.com/ru/companies/alfa/articles/680556/)
+[Оригинальный текст]({{ page.source }})

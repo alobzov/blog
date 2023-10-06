@@ -80,6 +80,6 @@ source: https://habr.com/ru/companies/alfa/articles/472412/
 
 ---
 
-[Оригинальный текст](https://habr.com/ru/companies/alfa/articles/472412/)
+[Оригинальный текст]({{ page.source }})
 |
 [Доклад по материалам статьи](https://habr.com/ru/companies/raiffeisenbank/articles/498330/)

@@ -79,4 +79,4 @@ source: https://habr.com/ru/companies/alfa/articles/461643/
 
 ---
 
-[Оригинальный текст](https://habr.com/ru/companies/alfa/articles/461643/)
+[Оригинальный текст]({{ page.source }})

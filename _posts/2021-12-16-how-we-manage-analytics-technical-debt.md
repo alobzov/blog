@@ -53,4 +53,4 @@ source: https://habr.com/ru/companies/alfa/articles/595823/
 
 ---
 
-[Оригинальный текст](https://habr.com/ru/companies/alfa/articles/595823/)
+[Оригинальный текст]({{ page.source }})
