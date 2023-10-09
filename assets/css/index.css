@@ -103,6 +103,10 @@ img {
   width: 100%;
 }
 
+iframe {
+  float: right;
+}
+
 hr {
   border: 1px solid black;
   width: 10%;
