@@ -39,10 +39,8 @@ source: https://habr.com/ru/companies/alfa/articles/754896/
 
 <details>
   <summary>Начало скрининга</summary>
-  
-![Начало скрининга]({{ site.baseurl }}/assets/img/2023-08-21/pic_1.png)
-</details><br>
-
+  <img src="{{ site.baseurl }}/assets/img/2023-08-21/pic_1.png" alt="Начало скрининга"/>
+</details>
 
 В качестве проверяемых были выбраны темы, рассматриваемые, в том числе, и на техническом интервью:
 
@@ -58,9 +56,8 @@ source: https://habr.com/ru/companies/alfa/articles/754896/
 
 <details>
   <summary>Графическое сопровождение вопроса</summary>
-
-![Графическое сопровождение вопроса]({{ site.baseurl }}/assets/img/2023-08-21/pic_2.png)
-</details><br>
+  <img src="{{ site.baseurl }}/assets/img/2023-08-21/pic_2.png" alt="Графическое сопровождение вопроса"/>
+</details>
 
 Для успешного прохождения требовалось правильно ответить на 75% вопросов. Так за период с 15 июня по 14 июля успешно прошли скрининг-бот 26 из 59 кандидатов на штатные позиции — т.е. 44%. 
 
