@@ -39,6 +39,7 @@ source: https://habr.com/ru/companies/alfa/articles/754896/
 
 <details>
   <summary>Начало скрининга</summary>
+  
 ![Начало скрининга]({{ site.baseurl }}/assets/img/2023-08-21/pic_1.png)
 </details><br>
 
@@ -57,6 +58,7 @@ source: https://habr.com/ru/companies/alfa/articles/754896/
 
 <details>
   <summary>Графическое сопровождение вопроса</summary>
+
 ![Графическое сопровождение вопроса]({{ site.baseurl }}/assets/img/2023-08-21/pic_2.png)
 </details><br>
 
