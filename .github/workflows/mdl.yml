@@ -1,0 +1,17 @@
+name: markdown-lint
+
+on:
+  push:
+   branches:
+   - main
+
+jobs:
+  markdown-lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: DavidAnson/markdownlint-cli2-action@v13
+      with:
+        config: './.markdownlint.json'
+        globs: '_posts/*.md, README.md'
+        separator: ', '
