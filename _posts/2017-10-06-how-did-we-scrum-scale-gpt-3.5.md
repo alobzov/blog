@@ -23,21 +23,21 @@ The bank set a deadline to develop a new internet banking platform for customers
 
 In Scrum, teams are independent and self-organize the sprint length, its goal, and the list of stories to be completed to achieve an increment. However, this independence could pose a number of risks.
 
-### Low-priority functionality was implemented.
+### Low-priority functionality was implemented
 
 Each team has a product owner who has a vision for the development of their product, a separate service within the complex product. This vision is often limited to a specific service. Therefore, the functionality implemented by the time of launching the new internet banking platform might be significant within an individual application but insignificant within the context of the complex final product.
 
-### Functionality duplication occurred.
+### Functionality duplication occurred
 
 This applies not only to the front-end applications but also to the middle services called from the front end. Sending a payment for execution in the bank should follow a unified algorithm, regardless of whether it is done from a specific payment page or from the customer's payment list. Otherwise, the final product would be too complex to maintain and develop.
 
-### Only a part of the complex product was handed over for maintenance.
+### Only a part of the complex product was handed over for maintenance
 
 One of the requirements for handing over the product for maintenance is the availability of documentation for the front end and microservices. The front-end description should be provided on the project page in Confluence. Documentation for microservices should be located alongside the code in Git.
 
 Five teams worked on the new internet banking platform. Two teams documented according to the functional maintenance requirements, while the rest decided to document everything in Git, including the front-end documentation. This decision was reasonable, but it could have caused difficulties when transferring parts of the applications for maintenance.
 
-### One product, different designs.
+### One product, different designs
 
 Each team has a designer responsible for the visual appearance of the application. Therefore, even with certain agreements between the designers, discrepancies in the components used, fonts, spacing, etc., can be discovered when assembling the final product from individual applications.
 
