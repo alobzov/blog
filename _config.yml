@@ -10,6 +10,7 @@ author:
   email: aleks.lobzov@gmail.com
 encoding: utf-8
 timezone: Europe/Moscow
+paginate: 5
 permalink: :year-:month-:day-:title.html
 exclude:
   - README.md
