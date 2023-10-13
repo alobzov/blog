@@ -24,7 +24,8 @@ header li {
 }
 
 header a,
-article a {
+article a,
+.pagination a {
   color: blue;
   text-decoration: none;
 }
